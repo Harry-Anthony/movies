@@ -92,7 +92,6 @@ class HomePage extends StatelessWidget {
           SizedBox(
             height: 250,
             child: Stack(
-              overflow: Overflow.visible,
               children: <Widget>[
                 topbar(animation.barHeight.value),
                  circle(
